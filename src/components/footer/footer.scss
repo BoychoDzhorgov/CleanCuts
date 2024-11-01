@@ -1,0 +1,81 @@
+@import "../../styles/fonts.scss";
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 100px;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding: 20px 80px;
+    }
+
+    .working-hours {
+        display: flex;
+        flex-direction: column;
+        
+        .title {
+            font-family: "Indivisible-Bold";
+            font-size: 37px;
+            line-height: 1.1em;
+            text-align: center;
+        }
+
+        .hours {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            @media screen and (max-width: 768px) {
+                align-items: center;
+            }
+
+            .item {
+                font-family: "Indivisible-Regular";
+                font-size: 16px;
+            }
+        }
+    }
+
+    .location {
+        .title {
+            font-family: "Indivisible-Bold";
+            font-size: 37px;
+            line-height: 1.1em;
+            text-align: center;
+        }
+
+        .address {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            @media screen and (max-width: 768px) {
+                align-items: center;
+            }
+
+            .item {
+                font-family: "Indivisible-Regular";
+                font-size: 16px;
+            }
+        }
+
+        .info-text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 20px;
+
+            .text-en {
+                font-family: "Indivisible-Bold";
+                font-size: 16px;
+            }
+
+            .text {
+
+                font-size: 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+
+  .page-wrapper {
+    padding: 60px 0;
+
+    @media screen and (max-width: 768px) {
+      padding: 30px 0;
+    }
+
+    .intro {
+      padding: 60px 100px;
+
+      @media screen and (max-width: 768px) {
+        padding: 30px 50px;
+      }
+    }
+
+    .studios {
+      background-image: url('./images/logo.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: space-between;
+      flex-wrap: wrap;
+      text-align: left;
+      padding: 60px 100px;
+
+      @media screen and (max-width: 768px) {
+        padding: 30px 50px;
+      }
+    }
+
+    .large-button-wrapper {
+      margin: 40px 0;
+
+      .large-button {
+        font-family: "Indivisible-Regular";
+        background-color: #fff;
+        text-decoration: none;
+        color: #000;
+        padding: 10px 200px;
+        border: 1px solid #000;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+
+        @media screen and (max-width: 768px) {
+          align-items: center;
+          padding: 10px 30px;
+        }
+      }
+
+      .large-button:hover {
+          background-color: #000;
+          color: #fff;
+          border: 1px solid #fff;
+      }
+    }
+  }
+}
+
+

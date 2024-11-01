@@ -1,23 +1,36 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Header from './components/header/header';
+import Intro from './components/intro/intro';
+import Studio from './components/studio/studio';
+import StudioSecond from './components/studio-second/studioSecond';
+import ServicesSection from './components/services-section/services-section';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="page-wrapper">
+        <div className="intro">
+          <Intro />
+        </div>
+        <div className="studios">
+          <Studio />
+          <StudioSecond />
+        </div>
+        <div className="large-button-wrapper">
+          <a href="https://www.fresha.com/bg/a/studio-clean-cutz-plovdiv-bul-knyaginya-mariya-luiza-boulevard-knyaginya-maria-luiza-hxbp3i75/booking?menu=true&dppub=true&offerItems=sv%3A15365086"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="large-button">
+                Book Now
+          </a>
+        </div>
+        <ServicesSection />
+        <div className="follow-us"></div>
+      </div>
+      <Footer />
     </div>
   );
 }
