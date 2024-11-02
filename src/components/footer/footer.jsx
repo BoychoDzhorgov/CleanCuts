@@ -14,7 +14,12 @@ export default function Footer() {
             <div className="location">
                 <h2 className="title">Location Details</h2>
                 <div className="address">
-                    <div className="item">Plovdiv Center, boulevard "Knyaginya Maria Luiza" 41, 4000</div>
+                    <a href="https://maps.app.goo.gl/cWzmMq7U1KD4CPg7A" 
+                        className="full-adress-name"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Plovdiv Center, boulevard "Knyaginya Maria Luiza" 41, 4000
+                    </a>
                     <div className="item">Plovdiv, Bulgaria</div>
                 </div>
                 <div className="info-text">

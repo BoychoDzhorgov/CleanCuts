@@ -12,9 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <div className="page-wrapper">
-        <div className="intro">
-          <Intro />
-        </div>
+        <Intro />
         <div className="studios">
           <Studio />
           <StudioSecond />

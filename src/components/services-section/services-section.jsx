@@ -13,10 +13,17 @@ export default function ServicesSection() {
             price: "10 лв",
         },
         {
+            title: "Beard Trim & Haircut | Коса и брада",
+            price: "45 лв",
+        },
+        {
             title: "Full Service",
             price: "45 лв",
         },
     ]
+
+    const message = "* Цените са индивидуални спрямо бръснаря, при когото сте запазили услугата.";
+    const messageEn = "* Prices are individual according to the barber with whom you reserved the service.";
     return (
         <div className="services-section">
             <div className="title">{sectionTitle}</div>
@@ -27,7 +34,8 @@ export default function ServicesSection() {
                 ))}
             </div>
             )}
-            
+            <div className="message">{message}</div>
+            <div className="message">{messageEn}</div>
         </div>
     )
 }

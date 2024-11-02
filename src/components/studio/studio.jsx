@@ -5,7 +5,7 @@ import Barber from "../barber/barber";
 export default function Studio() {
     const barbers = [
         {
-            name: "Bozhidar",
+            name: "Bozhidar Marinov",
             jobTitle: "Barber"
         },
         {

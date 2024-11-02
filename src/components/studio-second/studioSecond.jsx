@@ -5,19 +5,23 @@ import Barber from "../barber/barber";
 export default function StudioSecond() {
     const barbers = [
         {
-            name: "Bogomil",
+            name: "Bogomil Kolakov",
             jobTitle: "Barber"
         },
         {
-            name: "Verhat",
+            name: "Verhat Dzhihanov",
             jobTitle: "Barber"
         },
         {
-            name: "Mariya",
+            name: "Mariya Dimitrova",
             jobTitle: "Barber"
         },
         {
-            name: "Plamen",
+            name: "Plamen Valkov",
+            jobTitle: "Barber"
+        },
+        {
+            name: "Ivan Kroezhov",
             jobTitle: "Barber"
         },
     ]
