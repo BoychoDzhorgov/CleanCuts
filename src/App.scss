@@ -9,13 +9,16 @@
       background-position: center;
       background-repeat: no-repeat;
       display: flex;
-      grid-template-columns: repeat(2, 1fr);
+      flex-direction: column;
       justify-content: space-between;
       flex-wrap: wrap;
       text-align: left;
       padding: 20px 50px;
       
       @media screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
         padding: 40px 100px;
       }
     }
