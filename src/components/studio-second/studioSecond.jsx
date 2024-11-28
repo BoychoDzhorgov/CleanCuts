@@ -24,11 +24,6 @@ export default function StudioSecond() {
             image: Mariya
         },
         {
-            name: "Plamen Valkov",
-            jobTitle: "Barber",
-            image: ""
-        },
-        {
             name: "Ivan Kroezhov",
             jobTitle: "Barber",
             image: IvanKroezhov
