@@ -1,10 +1,7 @@
 import "./studioSecond.scss"
-import Avatar from "../../images/avatar.webp";
 import Barber from "../barber/barber";
 import Bogomil from "../../images/bogomil.jpg";
 import Verhat from "../../images/dzhihanov.jpg";
-import Mariya from "../../images/mariya.jpg";
-import IvanKroezhov from "../../images/ivan_kroezhov.jpg";
 
 export default function StudioSecond() {
     const barbers = [
@@ -17,16 +14,6 @@ export default function StudioSecond() {
             name: "Verhat Dzhihanov",
             jobTitle: "Barber",
             image: Verhat
-        },
-        {
-            name: "Mariya Dimitrova",
-            jobTitle: "Barber",
-            image: Mariya
-        },
-        {
-            name: "Ivan Kroezhov",
-            jobTitle: "Barber",
-            image: IvanKroezhov
         },
     ]
     return (
