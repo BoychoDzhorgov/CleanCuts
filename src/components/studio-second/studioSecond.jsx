@@ -2,6 +2,7 @@ import "./studioSecond.scss"
 import Barber from "../barber/barber";
 import Bogomil from "../../images/bogomil.jpg";
 import Verhat from "../../images/dzhihanov.jpg";
+import Simeon from "../../images/simeon.jpg";
 
 export default function StudioSecond() {
     const barbers = [
@@ -14,6 +15,11 @@ export default function StudioSecond() {
             name: "Verhat Dzhihanov",
             jobTitle: "Barber",
             image: Verhat
+        },
+        {
+            name: "Simeon Karaginev",
+            jobTitle: "Barber",
+            image: Simeon
         },
     ]
     return (
