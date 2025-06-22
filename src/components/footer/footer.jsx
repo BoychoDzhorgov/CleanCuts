@@ -22,10 +22,10 @@ export default function Footer() {
                     </a>
                     <div className="item">Plovdiv, Bulgaria</div>
                 </div>
-                <div className="info-text">
+                {/* <div className="info-text">
                     <div className="text-en">Studio 1 and 2 are located next to each other in the same building</div>
                     <div className="text">Студио 1 и 2 се намират едно до друго в една и съща сграда</div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
