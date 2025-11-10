@@ -46,11 +46,6 @@ export default function Studio() {
             jobTitle: "Barber",
             image: Simeon
         },
-        {
-            name: "Amid Akif",
-            jobTitle: "Barber",
-            image: Amid
-        },
     ]
 
     const mid = Math.ceil(barbers.length / 2);
