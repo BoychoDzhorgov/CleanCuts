@@ -1,4 +1,6 @@
 import "./footer.scss"
+import Facebook from "../../images/facebook-icon.png";
+import Instagram from "../../images/instagram-icon.png";
 
 export default function Footer() {
     return (
@@ -9,6 +11,26 @@ export default function Footer() {
                     <div className="item">Monday-Friday: 9am-7pm</div>
                     <div className="item">Saturday: 9am-5pm</div>
                     <div className="item">Sunday: Closed</div>
+                </div>
+            </div>
+            <div className="social-networks">
+                <h2 className="title">Follow us</h2>
+                <div className="social-icons-wrapper">
+                    <a
+                        href="https://www.facebook.com/share/1CxtXgytjR/?mibextid=wwXIfr"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img src={Facebook} className="social-icon" alt="Facebook" />
+                    </a>
+
+                    <a
+                        href="https://www.instagram.com/studio.cleancutz?igsh=MWNxcnJzOGEwYTBucQ=="
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img src={Instagram} className="social-icon" alt="Instagram" />
+                    </a>
                 </div>
             </div>
             <div className="location">

@@ -7,7 +7,6 @@ import Pavel from "../../images/pavel_zhelev.jpg";
 import Bogomil from "../../images/bogomil.jpg";
 import Verhat from "../../images/dzhihanov.jpg";
 import Simeon from "../../images/simeon.jpg";
-import Amid from "../../images/amid_akif.jpg"
 
 export default function Studio() {
     const barbers = [

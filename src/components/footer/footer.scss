@@ -39,6 +39,25 @@
         }
     }
 
+    .social-networks {
+        .title {
+            font-family: "Indivisible-Bold";
+            font-size: 37px;
+            line-height: 1.1em;
+            text-align: center;
+        }
+        .social-icons-wrapper {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+
+            .social-icon {
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
+
     .location {
         .title {
             font-family: "Indivisible-Bold";

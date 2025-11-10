@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import "./service.scss";
 
 export default function Service(props) {
