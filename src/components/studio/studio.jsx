@@ -2,7 +2,7 @@ import "./studio.scss"
 import Barber from "../barber/barber";
 import Bozhidar from "../../images/bozhidar.jpg";
 import IvanIvanov from "../../images/ivan_ivanov.jpg";
-import Lyubomir from "../../images/lyubomir_manevski.jpg";
+import Lyubomir from "../../images/lubomir_manevski.jpg";
 import Pavel from "../../images/pavel_zhelev.jpg";
 import Bogomil from "../../images/bogomil.jpg";
 import Verhat from "../../images/dzhihanov.jpg";
