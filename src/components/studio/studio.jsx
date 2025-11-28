@@ -2,7 +2,7 @@ import "./studio.scss"
 import Barber from "../barber/barber";
 import Bozhidar from "../../images/bozhidar.jpg";
 import IvanIvanov from "../../images/ivan_ivanov.jpg";
-import IvanRaynov from "../../images/ivan_raynov.jpg";
+import Lyubomir from "../../images/lyubomir_manevski.jpg";
 import Pavel from "../../images/pavel_zhelev.jpg";
 import Bogomil from "../../images/bogomil.jpg";
 import Verhat from "../../images/dzhihanov.jpg";
@@ -19,11 +19,6 @@ export default function Studio() {
             name: "Ivan Ivanov",
             jobTitle: "Barber",
             image: IvanIvanov
-        },
-        {
-            name: "Ivan Raynov",
-            jobTitle: "Barber",
-            image: IvanRaynov
         },
         {
             name: "Pavel Zhelev",
@@ -44,6 +39,11 @@ export default function Studio() {
             name: "Simeon Karaginev",
             jobTitle: "Barber",
             image: Simeon
+        },
+        {
+            name: "Lyubomir Manevski",
+            jobTitle: "Barber",
+            image: Lyubomir
         },
     ]
 
