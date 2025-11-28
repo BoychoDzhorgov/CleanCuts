@@ -6,19 +6,19 @@ export default function ServicesSection() {
     const cards = [
         {
             title: "Haircut | Подстрижка",
-            price: "25 лв / 30 лв",
+            price: "30 лв - 35 лв | 15.34 € - 17.90 €",
         },
         {
             title: "Beard Trim | Оформяне на брада",
-            price: "10 лв / 15 лв",
+            price: "10 лв - 15 лв | 5.11 € - 7.67 €",
         },
         {
             title: "Beard Trim & Haircut | Коса и брада",
-            price: "35 лв / 45 лв",
+            price: "40 лв - 50 лв | 20.45 € - 23.01 €",
         },
         {
             title: "Full Service",
-            price: "25 лв / 50 лв",
+            price: "30 лв - 55 лв | 15.34 € - 28.12 €",
         },
     ]
 
