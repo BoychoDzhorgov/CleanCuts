@@ -7,6 +7,7 @@ import Pavel from "../../images/pavel_zhelev.jpg";
 import Bogomil from "../../images/bogomil.jpg";
 import Verhat from "../../images/dzhihanov.jpg";
 import Simeon from "../../images/simeon.jpg";
+import Teodor from "../../images/teodor_balabanov.jpg";
 
 export default function Studio() {
     const barbers = [
@@ -44,6 +45,11 @@ export default function Studio() {
             name: "Lyubomir Manevski",
             jobTitle: "Barber",
             image: Lyubomir
+        },
+        {
+            name: "Teodor Balabanov",
+            jobTitle: "Barber",
+            image: Teodor
         },
     ]
 
