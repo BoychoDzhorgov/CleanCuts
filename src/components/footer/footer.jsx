@@ -1,6 +1,9 @@
+import { useEffect, useState } from "react";
 import "./footer.scss"
 import Facebook from "../../images/facebook-icon.png";
 import Instagram from "../../images/instagram-icon.png";
+import sanityClient from "../../sanityClient";
+import { footerQuery } from "../../queries";
 
 export default function Footer() {
     return (

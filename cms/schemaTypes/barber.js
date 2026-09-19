@@ -10,27 +10,36 @@ export default defineType({
       title: 'Name',
       type: 'string',
       description: 'Име на бръснар',
+      validation: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'job',
-      title: 'Job',
+      name: 'position',
+      title: 'Position',
       type: 'string',
       description: 'Наименование на длъжност',
+      validation: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'image',
-      title: 'Image',
+      name: 'photo',
+      title: 'Photo',
       type: 'image',
       options: {
         hotspot: true,
       },
       description: 'Снимка на бръснар',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'order',
+      title: 'Order',
+      type: 'number',
+      description: 'Ред на показване на бръснаря',
     }),
   ],
   preview: {
     select: {
       title: 'name',
-      media: 'image',
+      media: 'photo',
     },
   },
 })

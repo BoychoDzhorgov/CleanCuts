@@ -1,5 +1,3 @@
-@import "../../styles/fonts.scss";
-
 .studio {
     background-image: url('../../images/logo.jpg');
     background-size: cover;
@@ -16,7 +14,7 @@
     .title1 {
         font-size: 36px;
         font-family: "Indivisible-Regular";
-        margin: 0px;
+        margin: 0;
 
         @media screen and (min-width: 768px) {
             font-size: 50px;
@@ -26,41 +24,26 @@
     .title2 {
         font-size: 36px;
         font-family: "Indivisible-Bold";
-        margin: 0px;
+        margin: 0;
 
         @media screen and (min-width: 768px) {
             font-size: 50px;
         }
     }
+
     .barbers {
         display: flex;
         flex-direction: column;
-        text-align: left;
         gap: 20px;
         padding: 20px 0 0 0;
 
         @media screen and (min-width: 768px) {
             display: grid;
-            justify-content: space-between;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 40px;
+            grid-template-columns: repeat(2, 1fr); // Две равни колони
+            column-gap: 40px;
+            row-gap: 30px;
             padding: 40px 0;
             width: 100%;
         }
-
-         .column:first-child {
-            flex: 1;
-            justify-self: start;
-            display: flex;
-            flex-direction: column;
-        } 
-
-        .column:last-child {
-            flex: 1;
-            justify-self: end;
-            display: flex;
-            flex-direction: column;
-        }
     }
 }
-
