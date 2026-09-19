@@ -6,7 +6,7 @@ import Barber from "../barber/barber";
 
 export default function Studio() {
     const [barbers, setBarbers] = useState([]);
-    const [loading, setLoading] = useState(true);
+    // const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         sanityClient
