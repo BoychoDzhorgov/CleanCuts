@@ -6,7 +6,7 @@ import Barber from "../barber/barber";
 
 export default function Studio() {
     const [barbers, setBarbers] = useState([]);
-    // const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         sanityClient
@@ -25,8 +25,12 @@ export default function Studio() {
         <div className="studio">
             <h1 className="title1">STUDIO</h1>
             <h1 className="title2">CLEAN CUTZ</h1>
-            
-            {barbers.length > 0 && (
+            {loading && (
+                <div className="message">
+                    Loading services...
+                </div>
+            )}
+            {!loading && barbers.length > 0 && (
                 <div className="barbers">
                     {barbers.map((barber) => (
                         <Barber 
@@ -36,6 +40,12 @@ export default function Studio() {
                             image={barber.imageUrl} 
                         />
                     ))}
+                </div>
+            )}
+
+            {!loading && barbers.length === 0 && (
+                <div className="message">
+                    No barbers available.
                 </div>
             )}
         </div>
